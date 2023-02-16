@@ -1,0 +1,60 @@
+.navbar {
+  top: 0px;
+  right: 0px;
+  background-color: #202020;
+  height: 50px;
+  color: wheat;
+}
+
+.hero {
+  background-image: url("../../assets/hero.jpeg");
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logo img {
+  height: 200px;
+  width: auto;
+}
+
+.letters {
+  height: 50px;
+  color: white;
+  background-color: #202020;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.lettersWrapper {
+  margin: auto;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  gap: 20px;
+}
+
+ul > li {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+ul > li:hover {
+  color: #ee2122;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: #ee2122;
+}

@@ -1,0 +1,26 @@
+.selectedSongsContainer {
+  /* overflow: scroll; */
+}
+.listItemWrapper {
+  /* display: flex;
+  justify-content: center; */
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.deleteSection {
+  display: flex;
+  justify-content: center;
+  vertical-align: center;
+}
+
+.deleteSection .deleteBtn {
+  margin-top: 30px;
+  margin-right: 0px;
+}

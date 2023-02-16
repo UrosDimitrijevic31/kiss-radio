@@ -1,0 +1,36 @@
+.singerContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  padding-left: 15%;
+}
+
+.singerContainer a {
+  color: black;
+}
+
+.singerContainer a:hover {
+  color: #ee2122;
+  text-decoration: underline;
+  scale: 1;
+}
+
+.firstLetter {
+  color: #ee2122;
+  font-size: 3em;
+  text-shadow: 0px 1px 1px #676767;
+  padding: 0;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.singersWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  text-align: left;
+}
+
+.singer {
+  margin: 4px 0;
+}
